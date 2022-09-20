@@ -1,0 +1,73 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "League Spartan", sans-serif;
+}
+
+p,
+a {
+  font-family: "Space Mono", monospace;
+}
+
+nav {
+  background-color: #3a41e4;
+  padding: 10px;
+  text-align: right;
+}
+nav a {
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100vh - 30px);
+  background-color: #3a41e4;
+}
+
+.hero {
+  text-align: center;
+}
+.hero h1,
+.hero h3 {
+  font-size: 2em;
+  color: white;
+}
+.hero h1 {
+  font-size: 5em;
+  font-weight: bold;
+}
+.hero a {
+  display: inline-block;
+  padding: 20px 50px;
+  margin-top: 15px;
+  background-color: white;
+  color: #3a41e4;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+.skills {
+  background-color: #ececec;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.skills i {
+  text-align: center;
+  font-size: 6em;
+  color: #3a41e4;
+  flex-grow: 1;
+}
+
+//#ECECEC
+//#3A41E4
