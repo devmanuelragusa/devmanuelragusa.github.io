@@ -17,6 +17,7 @@ nav {
   padding: 10px;
   text-align: right;
 }
+
 nav a {
   margin-right: 10px;
   color: white;
@@ -54,19 +55,38 @@ nav a {
   font-size: 0.8em;
 }
 
-.skills {
+.skills-container {
   background-color: #ececec;
   padding: 50px 0;
+  text-align: center;
+}
+
+.skills-container h3 {
+  font-size: 2em;
+}
+
+.skills {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.skills i {
+.skill {
   text-align: center;
+  flex-grow: 1;
+  padding: 10px;
+  margin: 10px;
+  //box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.skill i {
   font-size: 6em;
   color: #3a41e4;
-  flex-grow: 1;
+}
+
+.skill p {
+  margin-top: 10px;
 }
 
 //#ECECEC
